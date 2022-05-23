@@ -56,7 +56,7 @@
                     <p>Knowledgeable Filipino people on how to cook easy and healthy food by 2050.</p>
                 </div>
                 <div class="center">
-                    <p>Copyright &reg; 2022</p>
+                    <p><b>Copyright &reg; 2022</b></p>
                 </div>
             </div>
         </div>
