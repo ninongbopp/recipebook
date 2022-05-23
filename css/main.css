@@ -1,4 +1,26 @@
 .nav{
     background-color: rgb(247, 216, 170);
-    text-align: center;
+}
+
+.nav>.columns>h3{
+    color: green;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.item{
+    margin-top: 1%;
+    background: rgb(204, 249, 255);
+}
+
+img{
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container>.footer>{
+    background-color: black;
+    color: white;
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipebook>
-    #startregion
-    <food>
+    <!-- <food>
         <name></name>
+        <image></image>
         <course></course>
         <cuisine></cuisine>
         <prepT></prepT>
@@ -12,8 +12,8 @@
         <recipe>
             <item></item>
         </recipe>
-    </food>
-    #endregion
+        <step></step>
+    </food> -->
     <food>
         <name>Fish Sinigang</name>
         <image>./img/fishsinigang.jpg</image>
@@ -39,16 +39,381 @@
             <item>Fish sauce and ground black pepper to taste</item>
         </recipe>
         <step>
-            1. Slice the fish as needed. Sprinkle salt all over the fish slices and then rub all over. Let it stay for at least 15 minutes./n
-            2. Heat oil in a pan. Fry the fish slices until golden brown. Turn it over and perform the same step on the opposite side. Remove fish from the pan. Place in a clean plate. Set aside./n
-            3. Boil water in a large cooking pot. Add tomato, onion, and radish. Continue boiling for 5 minutes./n
-            4. Add Knorr Sinigang sa Sampaloc Mix. Stir./n
-            5. Put the fried fish slices into the pot. Let the liquid boil. Adjust the heat between low to medium. Continue boiling for 7 minutes./n
-            6. Add eggplant and long green peppers. Cook for 3 minutes./n
-            7. Add okra. Cook for 3 to 5 minutes./n
-            8. Season with ground black pepper and fish sauce./n
-            9. Put the fresh spinach into the pot. Cook for 1 to 2 minutes./n
-            10. Transfer to a serving bowl. Serve warm. Share and enjoy!/n
+            1. Slice the fish as needed. Sprinkle salt all over the fish slices and then rub all over. Let it stay for at least 15 minutes.
+
+            2. Heat oil in a pan. Fry the fish slices until golden brown. Turn it over and perform the same step on the opposite side. Remove fish from the pan. Place in a clean plate. Set aside.
+
+            3. Boil water in a large cooking pot. Add tomato, onion, and radish. Continue boiling for 5 minutes.
+
+            4. Add Knorr Sinigang sa Sampaloc Mix. Stir.
+
+            5. Put the fried fish slices into the pot. Let the liquid boil. Adjust the heat between low to medium. Continue boiling for 7 minutes.
+
+            6. Add eggplant and long green peppers. Cook for 3 minutes.
+
+            7. Add okra. Cook for 3 to 5 minutes.
+
+            8. Season with ground black pepper and fish sauce.
+
+            9. Put the fresh spinach into the pot. Cook for 1 to 2 minutes.
+
+            10. Transfer to a serving bowl. Serve warm. Share and enjoy!
+
+        </step>
+    </food>
+    <food>
+        <name>Pork Adobo</name>
+        <image>./img/porkadobo.jpg</image>
+        <course>Main Course</course>
+        <cuisine>Filipino</cuisine>
+        <prepT>10 minutes</prepT>
+        <cookT>1 hour</cookT>
+        <servings>4 people</servings>
+        <calories>1211 kcal</calories>
+        <recipe>
+            <item>2 lbs pork belly</item>
+            <item>2 tablespoons garlic minced or crushed</item>
+            <item>5 pieces dried bay leaves</item>
+            <item>4 tablespoons vinegar</item>
+            <item>1/2 cup soy sauce</item>
+            <item>1 tablespoon peppercorn</item>
+            <item>2 cups water</item>
+            <item>Salt to taste</item>
+        </recipe>
+        <step>
+            1. Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour. 
+
+            2. Heat the pot and put-in the marinated pork belly then cook for a few minutes. 
+
+            3. Pour remaining marinade including garlic.
+
+            4. Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour. 
+
+            5. Put-in the vinegar and simmer for 12 to 15 minutes
+
+            6. Add salt to taste.
+
+            7. Serve hot. Share and enjoy!
+
+        </step>
+    </food>
+    <food>
+        <name>Chicken Kare-kare sa Gata</name>
+        <image>./img/chickenkarekare.jpg</image>
+        <course>Main Course</course>
+        <cuisine>Filipino</cuisine>
+        <prepT>10 minutes</prepT>
+        <cookT>45 minutes</cookT>
+        <servings>4 people</servings>
+        <calories>842 kcal</calories>
+        <recipe>
+            <item>1 1/2 lbs. chicken cut into serving pieces</item>
+            <item>1 piece Knorr Chicken Cube</item>
+            <item>1 cup ground peanuts</item>
+            <item>2 bunches baby bok choy</item>
+            <item>1 piece eggplant sliced</item>
+            <item>8 pieces snake beans</item>
+            <item>1 piece onion chopped</item>
+            <item>5 cloves garlic chopped</item>
+            <item>2 teaspoons paprika</item>
+            <item>1 teaspoon turmeric powder</item>
+            <item>1/4 cup bagoong alamang</item>
+            <item>3 cups coconut milk</item>
+            <item>5 tablespoons cooking oil</item>
+            <item>Ground black pepper to taste</item>
+            <item>1 teaspoon salt</item>
+        </recipe>
+        <step>
+            1. Rub salt all over chicken pieces. Let it stay for 5 minutes.
+
+            2. Heat 3 tablespoons oil in a cooking pot. Pan-fry chicken for 2 minutes per side. Remove from pan. Set aside.
+
+            3. Add remaining oil. Saute garlic and onion until the latter turns translucent.
+
+            4. Pour-in coconut milk. Let boil. Add paprika and turmeric powder. Stir.
+
+            5. Add chicken. Cover the pot and let the sauce boil.
+
+            6. Add Knorr Chicken Cube. Set heat between low to medium. Continue cooking for 25 minutes.
+
+            7. Add peanut paste. Stir until paste is completely diluted.
+
+            8. Put the eggplant, snake beans into the pot. Cover and cook for 5 to 8 minutes. Add bok choy. Cook for 3 minutes.
+
+            9. Season with ground black pepper.
+
+            10. Transfer to a serving bowl. Serve with bagoong alamang. Share and enjoy!
+
+        </step>
+    </food>
+    <food>
+        <name>Chicken Sotanghon Tinola</name>
+        <image>./img/tinola.jpg</image>
+        <course>Main Course</course>
+        <cuisine>Filipino</cuisine>
+        <prepT>5 minutes</prepT>
+        <cookT>45 minutes</cookT>
+        <servings>4 people</servings>
+        <calories>351 kcal</calories>
+        <recipe>
+            <item>8 ounces boneless chicken breast</item>
+            <item>5 ounces sotanghon noodles</item>
+            <item>1 Knorr Chicken Cube</item>
+            <item>6 ounces green papaya sliced</item>
+            <item>1 cup malunggay leaves</item>
+            <item>4 cloves garlic chopped</item>
+            <item>1 onion chopped</item>
+            <item>3 thumbs ginger minced</item>
+            <item>2 tablespoons cooking oil</item>
+            <item>6 cups rice wash hugas bigas</item>
+            <item>Patis and ground black pepper to taste</item>
+        </recipe>
+        <step>
+            1. Saute garlic, onion, and ginger.
+
+            2. Add chicken once the onion softens. Cook until the outer layer of the chicken turns light brown.
+
+            3. Pour water. Let boil. Add Knorr Chicken Cube. Cover the pot and boil in low to medium heat for 15 minutes.
+
+            4. Add papaya and sotanghon. Cook for 5 minutes.
+
+            5. Add malunggay leaves.
+
+            6. Season with ground black pepper and patis. Finish by adding toasted garlic.
+
+            7. Transfer to a serving bowl. Serve hot. Share and enjoy.
+
+        </step>
+    </food>
+    <food>
+        <name>Crispy Fried Chicken</name>
+        <image>./img/friedchicken.jpg</image>
+        <course>Fried Chicken</course>
+        <cuisine>Any</cuisine>
+        <prepT>20 minutes</prepT>
+        <cookT>15 minutes</cookT>
+        <servings>6 people</servings>
+        <calories>122 kcal</calories>
+        <recipe>
+            <item>3 lbs. chicken cut into individual pieces</item>
+            <item>1 tablespoon salt</item>
+            <item>3 cups cooking oil</item>
+            <item>1 cup all-purpose flour</item>
+            <item>¾ cup warm not hot fresh or evaporated milk</item>
+            <item>1 Knorr Chicken Cube</item>
+            <item>2 eggs</item>
+            <item>¾ cups all-purpose flour</item>
+            <item>1 teaspoon baking powder</item>
+            <item>2 teaspoons garlic powder</item>
+            <item>½ teaspoon salt</item>
+            <item>¼ teaspoon ground black pepper</item>
+        </recipe>
+        <step>
+            1. Rub salt all over the chicken. Let it stay for 15 minutes.
+
+            2. Heat the oil in a cooking pot.
+
+            3. Prepare the batter. Start by pressing a fork on the chicken cube until it is completely squashed. Combine it with warm milk. Stir until well blended. Set aside.
+
+            4. Combine flour, baking powder, garlic powder, salt, and ground black pepper. Mix well using a fork or a wire whisk. Set aside.
+
+            5. Beat the eggs in a large mixing bowl. Add the milk mixture. Continue to beat until all the ingredients are all incorporated. Add half of flour mixture. Whisk. Add the remaining half and whisk until the texture of the batter becomes smooth.
+
+            6. Dredge the chicken in flour and then dip in batter. Roll it again in flour until completely covered. Fry in medium heat for 7 minutes per side.
+
+            7. Remove from the pot and put in a plate lined with paper towel. This will absorb the oil.
+
+            8. Serve with ketchup or gravy.
+
+            9. Share and enjoy!
+
+        </step>
+    </food>
+    <food>
+        <name>Original Buffalo Wings</name>
+        <image>./img/buffalowings.jpg</image>
+        <course>Appetizer</course>
+        <cuisine>American</cuisine>
+        <prepT>15 minutes</prepT>
+        <cookT>29 minutes</cookT>
+        <servings>4 people</servings>
+        <calories>530 kcal</calories>
+        <recipe>
+            <item>2.67 lbs chicken wings</item>
+            <item>6.67 Tablespoons unsalted butter</item>
+            <item>0.67 cup Frank's RedHot sauce</item>
+        </recipe>
+        <step>
+            1. Divide the wings into 3 parts. Separate the drumette from the wingette. Cut off the wingtip and set aside. Note: we'll only be using the big parts.
+
+            2. Pat the wings dry with paper towel and arrange inside an air fryer. Air fry one side for 12 minutes at 350F. Do the same with the opposite side.
+
+            3. Make the sauce by melting butter in a microwave oven. Add the hot sauce and stir until well blended.
+
+            4. Soak chicken wings in the sauce. Make sure that each piece is fully coated.
+
+            5. Serve with ranch dressing, carrots, and celery. Share and enjoy!
+
+        </step>
+    </food>
+    <food>
+        <name>Pinoy Chicken Curry</name>
+        <image>./img/chickencurry.jpg</image>
+        <course>Main Course</course>
+        <cuisine>Filipino</cuisine>
+        <prepT>10 minutes</prepT>
+        <cookT>1 hour</cookT>
+        <servings>6 people</servings>
+        <calories>497 kcal</calories>
+        <recipe>
+            <item>2 lbs. chicken cut into serving pieces</item>
+            <item>1 tablespoon curry powder</item>
+            <item>1 piece potato cubed</item>
+            <item>4 cloves garlic minced</item>
+            <item>2 stalks celery sliced</item>
+            <item>1 piece red bell pepper sliced</item>
+            <item>2 pieces long green pepper</item>
+            <item>1 piece onion chopped</item>
+            <item>2 thumbs ginger cut into strips</item>
+            <item>2 cups coconut milk</item>
+            <item>1/2 cup all-purpose cream optional</item>
+            <item>1 cup water</item>
+            <item>fish sauce and ground black pepper to taste</item>
+        </recipe>
+        <step>
+            1. Heat oil in a pan. Fry potato for 1 minute per side. Remove from the pan. Set aside.
+
+            2. Using the remaining oil, saute garlic, onion, celery, and ginger until onion softens.
+
+            3. Add the chicken pieces. Saute until the outer part of the chicken turns light brown.
+
+            4. Add 1 tablespoon fish sauce. Continue sautéing for 1 minute.
+
+            5. Pour-in coconut milk and water. Let boil.
+
+            6. Add curry powder. Stir until the powder is completely diluted. Cover the pot and continue cooking between low to medium heat until the liquid reduces to half.
+
+            7. Add the red bell pepper and pan fried-potato. Cook for 5 minutes.
+
+            8. Season with fish sauce and ground black pepper as needed. You can also add all-purpose cream if desired.
+
+            9. Transfer to a serving bowl. Serve and enjoy!
+
+        </step>
+    </food>
+    <food>
+        <name>Crispy Bagnet</name>
+        <image>./img/crispybagnet.jpg</image>
+        <course>Main Course</course>
+        <cuisine>Filipino</cuisine>
+        <prepT>10 minutes</prepT>
+        <cookT>1 hour</cookT>
+        <servings>5 people</servings>
+        <calories>3807 kcal</calories>
+        <recipe>
+            <item>3 lbs. pork belly</item>
+            <item>2 tablespoons white vinegar</item>
+            <item>2 tablespoons salt</item>
+            <item>2 bunches lemongrass</item>
+            <item>1 tablespoon whole peppercorn</item>
+            <item>1 onion</item>
+            <item>8 cups water</item>
+            <item>6 cloves garlic</item>
+            <item>3 laurel leaves</item>
+            <item>6 cups cooking oil</item>
+        </recipe>
+        <step>
+            1. Preheat oven to 175F.\n
+            2. Pour water into a pressure cooker. Add lemongrass, salt, whole peppercorn, and onion. Let boil.\n
+            3. Add pork belly. Boil for 3 minutes. Cover the pressure cooker. Cook for 15 minutes.\n
+            4. Let the pressure out completely Put the pork belly on a clean plate and let it cool-down for 10 minutes. Season the meat part with salt and ground black pepper. Turn it upside down and season the skin part with salt.\n
+            5. Wrap the sides of the pork with an aluminum foil and then rub vinegar on the skin part.\n
+            6. Bake it for 2 ½ hours to dehydrate the skin.\n
+            7. Remove the pork from the oven. Set aside.\n
+            8. Heat oil in a wide wok. Once the oil gets hot, add garlic and laurel leaves. Cook until the garlic floats. Remove the garlic and leaves afterwards using a strainer.\n
+            9. Arrange a slab of pork belly over a skimmer. Pour hot oil over it using a ladle. Do this step until a crackling texture is formed on the skin. Perform the same steps until all the pork are done.\n
+            10. Arrange on a serving plate. Serve with your favorite dipping sauce. Share and enjoy!\n
+        </step>
+    </food>
+    <food>
+        <name>Homemade Lechon Paksiw</name>
+        <image>./img/lechonpaksiw.jpg</image>
+        <course>Main Course</course>
+        <cuisine>Filipino</cuisine>
+        <prepT>5 minutes</prepT>
+        <cookT>45 minutes</cookT>
+        <servings>6 people</servings>
+        <calories>431 kcal</calories>
+        <recipe>
+            <item>2 ½ lbs. roasted pork preferably leftovers</item>
+            <item>3 laurel leaves</item>
+            <item>Salt to taste</item>
+            <item>5 ounces pork liver sliced</item>
+            <item>1 Knorr Pork cube</item>
+            <item>5 tablespoons white vinegar</item>
+            <item>7 tablespoons dark brown sugar</item>
+            <item>½ teaspoon ground black pepper</item>
+            <item>1 onion chopped</item>
+            <item>1 head garlic crushed</item>
+            <item>2 ½ cups water</item>
+            <item>1 tablespoon soy sauce</item>
+            <item>3 Tablespoons breadcrumbs</item>
+            <item>3 tablespoons cooking oil</item>
+        </recipe>
+        <step>
+            1. Heat oil in a pan. Add the pork liver. Fry until color turns brown.\n
+            2. Remove the liver from the pot and place inside the blender. Add water. Puree the mixture. Set aside.\n
+            3. Using the remaining oil, sauté garlic and onion until the latter softens.\n
+            4. Pour the liver puree. Let boil.\n
+            5. Add Knorr Pork Cube, soy sauce, vinegar, and ground black pepper. Let the mixture boil. Stir.\n
+            6. Add brown sugar and breadcrumbs. Turn the heat off and pour the entire mixture back into the blender. Puree for 1 minute.\n
+            7. Pour the puree back into the cooking pot. Let it boil.\n
+            8. Add laurel leaves and roasted pork. Cover the pan. Continue cooking in a low heat setting for 40 minutes.\n
+            9. Season with salt as needed.\n
+            10. Transfer to a serving bowl. Serve warm. Share and enjoy with rice.\n
+        </step>
+    </food>
+    <food>
+        <name>Pork Sisig</name>
+        <image>./img/porksisig.jpg</image>
+        <course>Main Course</course>
+        <cuisine>Fiipino</cuisine>
+        <prepT>12 minutes</prepT>
+        <cookT>1 hour 30 minutes</cookT>
+        <servings>6 people</servings>
+        <calories>933 kcal</calories>
+        <recipe>
+            <item>1 lb. pig ears</item>
+            <item>1 1/2 lb pork belly</item>
+            <item>1 piece onion minced</item>
+            <item>3 tablespoons soy sauce</item>
+            <item>1/4 teaspoon ground black pepper</item>
+            <item>1 knob ginger minced (optional)</item>
+            <item>3 tablespoons chili flakes</item>
+            <item>1/2 teaspoon garlic powder</item>
+            <item>1 piece lemon or 3 to 5 pieces calamansi</item>
+            <item>½ cup butter or margarine</item>
+            <item>¼ lb chicken liver</item>
+            <item>6 cups water</item>
+            <item>3 tablespoons mayonnaise</item>
+            <item>1/2 teaspoon salt</item>
+            <item>1 piece egg (optional)</item>
+        </recipe>
+        <step>
+            1. Pour the water in a pan and bring to a boil Add salt and pepper.\n
+            2. Put-in the pig's ears and pork belly then simmer for 40 minutes to 1 hour (or until tender).\n
+            3. Remove the boiled ingredients from the pot then drain excess water.\n
+            4. Grill the boiled pig ears and pork belly until done.\n
+            5. Chop the pig ears and pork belly into fine pieces.\n
+            6. In a wide pan, melt the butter or margarine. Add the onions. Cook until onions are soft.\n
+            7. Put-in the ginger and cook for 2 minutes.\n
+            8. Add the chicken liver. Crush the chicken liver while cooking it in the pan.\n
+            9. Add the chopped pig ears and pork belly. Cook for 10 to 12 minutes.\n
+            10. Put-in the soy sauce, garlic powder, and chili. Mix well.\n
+            11. Add salt and pepper to taste.\n
+            12. Put-in the mayonnaise and mix with the other ingredients.\n
+            13. Transfer to a serving plate. Top with chopped green onions and raw egg.\n
+            14. Serve hot. Share and Enjoy (add the lemon or calamansi before eating).\n
         </step>
     </food>
 </recipebook>

@@ -16,18 +16,37 @@
                 <h3>RecipeBook</h3>
             </div>
         </div>
+
+        <?php
+            $file = simplexml_load_file('./Salvacion&Constantino_IT2E_recipebook.xml');
+
+            foreach($file->food as $f){
+                echo "
+                <div class='row item'>
+                    <div class='three columns'>
+                        <img src='$f->image'>
+                        
+                    </div>
+                    <div class='nine columns'>
+                        <h4>$f->name</h4>
+                        <p>Prep Time: $f->prepT</p>
+                        <p>Cook Time: $f->cookT</p>
+                        <button class='button-primary'>View Recipe</button>
+                    </div>
+                </div>
+                ";
+            }
+        ?>
+
+        <br>
+        <div class="row footer">
+            <div class="twelve columns">
+                <div class="margin">
+                    <h5></h5>
+                    <p>This website is made possible by Spencer Constantino and Warren Bopp Salvacion, college students of Marinduque State College.</p>
+                </div>
+            </div>
+        </div>
     </div>
-
-    </div>
-
-    <?php
-        $file = simplexml_load_file('./Salvacion&Constantino_IT2E_recipebook.xml');
-
-        foreach($file->food as $f){
-            echo "
-            <img src='$f->image'>
-            ";
-        }
-    ?>
 </body>
 </html>
