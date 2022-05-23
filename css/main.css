@@ -1,5 +1,5 @@
 .nav{
-    background-color: #357376;
+    background-color: #2b4966;
 }
 
 .nav>.columns>h3{
@@ -9,9 +9,9 @@
 }
 
 .item{
-    color: white;
+    color: black;
     margin-top: 1%;
-    background: #6ba8a9;
+    background: #99d0fd;
 }
 
 img{
@@ -23,17 +23,17 @@ img{
 
 .footer{
     padding: 10px;
-    background: #1d4d4f;
+    background: #2b4966;
     color: white;
 }
 .center{
-    background-color: grey;
+    background-color: #2b4966;
     color: black;
     text-align: center;
 }
 
 .result{
-    background-color: #7fb4b6;
+    background-color: #99d0fd;
     padding-left: 20px;
 }
 
