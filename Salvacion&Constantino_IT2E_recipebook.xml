@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipebook>
+    #startregion
+    <food>
+        <name></name>
+        <course></course>
+        <cuisine></cuisine>
+        <prepT></prepT>
+        <cookT></cookT>
+        <servings></servings>
+        <calories></calories>
+        <recipe>
+            <item></item>
+        </recipe>
+    </food>
+    #endregion
+    <food>
+        <name>Fish Sinigang</name>
+        <image>./img/fishsinigang.jpg</image>
+        <course>Main Course</course>
+        <cuisine>Filipino</cuisine>
+        <prepT>15 minutes</prepT>
+        <cookT>35 minutes</cookT>
+        <servings>5 people</servings>
+        <calories>271 kcal</calories>
+        <recipe>
+            <item>2 lbs fish</item>
+            <item>40 g Knorr Sinigang sa Sampaloc Mix</item>
+            <item>2 pieces tomato</item>
+            <item>1 cup Daikon radish</item>
+            <item>1 piece onion</item>
+            <item>3 cups spinach</item>
+            <item>10 pieces okra</item>
+            <item>2 pieces eggplant sliced</item>
+            <item>2 pieces long green pepper</item>
+            <item>2 quarts water</item>
+            <item>2 cup cooking oil</item>
+            <item>1 ½ tablespoons salt</item>
+            <item>Fish sauce and ground black pepper to taste</item>
+        </recipe>
+        <step>
+            1. Slice the fish as needed. Sprinkle salt all over the fish slices and then rub all over. Let it stay for at least 15 minutes./n
+            2. Heat oil in a pan. Fry the fish slices until golden brown. Turn it over and perform the same step on the opposite side. Remove fish from the pan. Place in a clean plate. Set aside./n
+            3. Boil water in a large cooking pot. Add tomato, onion, and radish. Continue boiling for 5 minutes./n
+            4. Add Knorr Sinigang sa Sampaloc Mix. Stir./n
+            5. Put the fried fish slices into the pot. Let the liquid boil. Adjust the heat between low to medium. Continue boiling for 7 minutes./n
+            6. Add eggplant and long green peppers. Cook for 3 minutes./n
+            7. Add okra. Cook for 3 to 5 minutes./n
+            8. Season with ground black pepper and fish sauce./n
+            9. Put the fresh spinach into the pot. Cook for 1 to 2 minutes./n
+            10. Transfer to a serving bowl. Serve warm. Share and enjoy!/n
+        </step>
+    </food>
+</recipebook>
