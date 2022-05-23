@@ -31,3 +31,12 @@ img{
     color: black;
     text-align: center;
 }
+
+.result{
+    background-color: #7fb4b6;
+    padding-left: 20px;
+}
+
+.resimage{
+    width: 250px;
+}

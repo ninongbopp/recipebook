@@ -7,40 +7,66 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/skeleton.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Recipe Book</title>
+    <title>Search</title>
 </head>
 <body>
+
     <div class="container full-width">
         <div class="row nav">
             <div class="twelve columns">
                 <h3>RecipeBook</h3>
             </div>
         </div>
+        
+    <!-- <food>
+        <name></name>
+        <image></image>
+        <course></course>
+        <cuisine></cuisine>
+        <prepT></prepT>
+        <cookT></cookT>
+        <servings></servings>
+        <calories></calories>
+        <recipe>
+            <item></item>
+        </recipe>
+        <step></step>
+    </food> -->
+        <div class='row result'>
+            <div class='twelve columns'>
         <?php
             session_start();
+
             $file = simplexml_load_file('./Salvacion&Constantino_IT2E_recipebook.xml');
 
+            $recipe = $_GET['recipe'];
+            
             foreach($file->food as $f){
-                echo "
-                <div class='row item'>
-                    <div class='three columns'>
-                        <img src='$f->image'>
-                    </div>
-                    <div class='nine columns'>
-                        <form action='viewrecipe.php' method='get'>
-                            <h4>$f->name</h4>
-                            <p>Prep Time: $f->prepT</p>
-                            <p>Cook Time: $f->cookT</p>
-                            <input type='hidden' name='recipe' value='$f->name'>
-                            <button class='button-primary'>View Recipe</button>
-                        </form>
-                    </div>
-                </div>
-                ";
+                if($f->name == $recipe){
+                    echo "
+                        <img src='$f->image' class='resimage'>
+                        <h4>$f->name</h4>
+                        <p><b>Course: </b> $f->course</p>
+                        <p><b>Cuisine: </b> $f->cuisine</p>
+                        <p><b>Preparation Time: </b> $f->prepT</p>
+                        <p><b>Cooking Time: </b> $f->cookT</p>
+                        <p><b>Servings: </b> $f->servings</p>
+                        <p><b>Calories: </b> $f->calories</p>
+                    ";
+                    echo "<h5>Ingredients</h5>";
+                    foreach($f->recipe->item as $r){
+                        echo "<li>$r</li>";
+                    }
+                    echo "<br/><h5>Procedures</h5>";
+                    foreach($f->step->item as $p){
+                        echo "<p>$p</p>";
+                    }
+                    
+                }
             }
         ?>
-
-        <br>
+            </div>
+        </div>
         <div class="row footer">
             <div class="twelve columns">
                 <div class="margin">
