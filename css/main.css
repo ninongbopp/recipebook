@@ -1,16 +1,17 @@
 .nav{
-    background-color: rgb(247, 216, 170);
+    background-color: #357376;
 }
 
 .nav>.columns>h3{
-    color: green;
+    color: #e5dfdf;
     margin-top: 5px;
     margin-left: 10px;
 }
 
 .item{
+    color: white;
     margin-top: 1%;
-    background: rgb(204, 249, 255);
+    background: #6ba8a9;
 }
 
 img{
@@ -20,7 +21,13 @@ img{
     margin-left: 10px;
 }
 
-.container>.footer>{
-    background-color: black;
+.footer{
+    padding: 10px;
+    background: #1d4d4f;
     color: white;
+}
+.center{
+    background-color: grey;
+    color: black;
+    text-align: center;
 }

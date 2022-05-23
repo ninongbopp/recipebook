@@ -42,8 +42,19 @@
         <div class="row footer">
             <div class="twelve columns">
                 <div class="margin">
-                    <h5></h5>
+                    <h5>Created By:</h5>
                     <p>This website is made possible by Spencer Constantino and Warren Bopp Salvacion, college students of Marinduque State College.</p>
+                </div>
+                <div class="margin">
+                    <h5>Mission</h5>
+                    <p>A credible information that will help Filipino people serve healthy food on their table.</p>
+                </div>
+                <div class="margin">
+                    <h5>Vision</h5>
+                    <p>Knowledgeable Filipino people on how to cook easy and healthy food by 2050.</p>
+                </div>
+                <div class="center">
+                    <p>Copyright &reg; 2022</p>
                 </div>
             </div>
         </div>
